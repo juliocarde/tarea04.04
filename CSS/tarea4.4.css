@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+}
+.img img {
+  width: 100%;
+  height: 100%;
+  border: 1px solid rgb(211, 29, 29);
+  background-color: #fafafa;
+  margin-right: auto;
+  margin-left: auto;
+}
+h1 {
+  margin-bottom: 15px;
+  text-align: center;
+}
+p {
+  background-color: rgb(146, 207, 235);
+  width: 90%;
+  height: 150px;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: Helvetica;
+  color: rgb(51, 42, 42);
+}
+#barra {
+  background-color: white;
+  text-align: center;
+  color: black;
+}
+
+.final {
+  background-color:white;
+}
+@media (min-width: 1401px) {
+  .col-lg-3 {
+    float: left;
+    width: 25%;
+    background-color: ;
+  }
+}
+@media (min-width: 1201px) and (max-width: 1400px) {
+  .col-lg-3 {
+    float: left;
+    border: 1px solid ;
+    background-image: url(https://fondosmil.com/fondo/7687.png);
+    
+    padding: 3px;
+    width: 45%;
+  }
+  .col8 {
+    width: 55%;
+  }
+  .img img {
+    width: 45%;
+    margin: auto;
+    display: block;
+  }
+  .img h1 {
+    width: 20%;
+    margin: auto;
+    display: block;
+  }
+}
+
+@media (min-width: 996px) and (max-width: 1200px) {
+  .col6 {
+    float: inline-end;
+    border: 1px solid red;
+    border-radius: 0px;
+    width:60%;
+    display:block;
+    margin: auto;
+    background-image: url(https://png.pngtree.com/thumb_back/fw800/background/20190223/ourmid/pngtree-blue-plant-background-design-backgroundplant-backgroundhand-painted-image_70261.jpg);
+  }
+  .col8 {
+    width: 60%;
+    display: block;
+    margin: auto;
+    background-image: url(https://www.xtrafondos.com/descargar.php?id=5084&resolucion=2560x1440);
+  }
+  body {
+    background-color: rgb(255, 254, 248);
+  }
+
+  .img img {
+    width: 45%;
+    margin: auto;
+    display: block;
+  }
+  .img h1 {
+    width: 20%;
+    margin: auto;
+    display: block;
+  }
+}
+@media (min-width: 700px) and (max-width: 995px) {
+  .col8 {
+    border: 1px solid rgb(255, 254, 248);
+    width: 50%;
+  }
+  body {
+    background-image: url(https://fondosmil.com/fondo/19264.jpg);
+  }
+}
